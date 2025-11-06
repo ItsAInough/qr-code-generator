@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --icon=qr-qrcode.ico --add-data "qr-qrcode.png;." --add-data "info-icon.png;." qr-code-generator.py
